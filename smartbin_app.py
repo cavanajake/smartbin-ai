@@ -6,7 +6,7 @@ from transformers import pipeline
 import openai
 
 # Set your OpenAI API key
-openai.api_key = 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
+openai.api_key = "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"
 
 # Load a pre-trained image classification model
 classifier = pipeline("image-classification", model="microsoft/resnet-50")
